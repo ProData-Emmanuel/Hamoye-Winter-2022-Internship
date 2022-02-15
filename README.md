@@ -81,3 +81,5 @@ rv2, Random variable 2, nondimensional
 **The target or response variable in this modeling project is Appliances (energy use in wh).**
 
 Dataset Description https://archive.ics.uci.edu/ml/machine-learning-databases/00374/
+
+File name: energydata_complete.csv
