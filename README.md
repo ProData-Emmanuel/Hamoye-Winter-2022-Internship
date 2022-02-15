@@ -7,10 +7,14 @@ This project drived a dataset from the Food and Agriculture Organization of the 
 This comma separated variable (or csv) Dataset has 60943 entries and 12 columns, and was loaded on the DataFrames,and Exploratory Data Analysis carried out to determined the relationship between the features.
 
 
-## STAGE B PROJECT CODES INFORMATION
-In this project, dataset from ZigBee wireless sensor nodes logged per 10 mins for 4.5 months to predict the energy consumption in appliances.
 
-The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters). The attribute information can be seen below.
+
+## STAGE B PROJECT CODES INFORMATION
+In this project, dataset from ZigBee wireless sensor nodes logged per 10 mins for 4.5 months is combined with datasets from a weather station to make Appliances Energy Prediction.
+
+### Deatils
+The dataset is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters). The attribute information can be seen below:
+
 Attribute Information:
 Date, time year-month-day hour:minute:second
 Appliances, energy use in Wh
@@ -41,3 +45,6 @@ Visibility (from Chievres weather station), in km
 Tdewpoint (from Chievres weather station), Â°C
 rv1, Random variable 1, nondimensional
 rv2, Random variable 2, nondimensional
+
+The target or response variable in this modeling project is Appliances (energy use in wh)
+
